@@ -19,7 +19,7 @@ export default function App() {
 
       console.log('Playing Sound');
       await sound.playAsync();
-      setIsMuted(false); // Music is now playing, set isMuted to false
+      setIsMuted(false); 
     } catch (error) {
       console.error('Error loading or playing sound', error);
     }
